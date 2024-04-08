@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    
+    <script type="module" crossorigin src="/goit-js-hw-12/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-6e0bf343.js">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/vendor-1cd1f9d9.css">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/index-5dedd491.css">
+  </head>
+  <body>
+    <form>
+      <div class="form-content">
+        <input
+          type="text"
+          class="form-control"
+          name="search"
+          placeholder="Search images..."
+        />
+        <button type="submit" class="btn">Search</button>
+      </div>
+    </form>
+    <div class="content-loader hidden">
+      <span class="loader-first"></span>
+    </div>
+
+    <div class="js-image-container">
+      <ul class="gallery-image"></ul>
+    </div>
+
+    <div class="content-btn">
+      <button type="button" class="btn btn-primary hidden">
+        Load more <span class="loader hidden"></span>
+      </button>
+    </div>
+
+    
+  </body>
+</html>
